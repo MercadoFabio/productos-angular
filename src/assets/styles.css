@@ -1,5 +1,5 @@
 body{
-	background:url(./image/fondo.jpg) ;
+	
 }
 #content{
 	margin-top:30px;
@@ -70,14 +70,12 @@ h1 , h3  {
 	margin-top: 30px;
 	border-radius: 5px;
 }
-.copy{
-	color: white;
-}
+
 #footer{
 	margin-top:30px;
 	padding-top: 10px;
 	border-top:1px solid #eee;
-	color: white;
+	
 }
 
 #form-producto label{
@@ -103,4 +101,15 @@ h1 , h3  {
 }
 .thumbnail{
 	background-color: transparent;
+}
+
+@media screen and (max-width:680px) {
+
+	#nav ul li a{
+		background-color: rgba(224, 49, 55, 0.67);
+		
+}
+	h3{
+		margin: 50px;
+	}
 }
