@@ -1,4 +1,4 @@
 export var GLOBAL = {
-	url: 'http://backend-productos.vercel.app/',
+	url: 'http://productos-backend.42web.io/',
 	header_color: '#E03137'
 };
